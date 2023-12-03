@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="min-h-screen text-white bg-slate-900 text-center">
+    <main className="min-h-screen text-white bg-slate-900 text-center p">
 
-      {navBar()}
+     
    
-        
+     
 
       <h1 className='text-3xl py-20'>Title </h1>
 
@@ -22,20 +22,26 @@ export default function Home() {
          <div className="flex w-2/5 bg-red-100 rounded-l text-center items-center justify-center py-10">
           <div className='text-black'>cool pic</div></div>
       </div>
-      
+
+      <div className='mt-20 bg-green-500 min-w-screen text-center text-2xl'> Q and A !!!</div>
+      <div className='flex justify-center'>
+       <div className='w-11/12 bg-black grid gap-5 grid-cols-3 '>
+
+        {qanda("asdfasdfasdf", "asdfasdfasdf asdfasdfasdfjkhjklwej kewqrqwek ljqwlkejqweqwe")}
+        {qanda("asdfasdfasdf", "asdfasdfasdf asdfasdfasdfjkhjklwej kewqrqwek ljqwlkejqweqwe")}
+        {qanda("asdfasdfasdf", "asdfasdfasdf asdfasdfasdfjkhjklwej kewqrqwek ljqwlkejqweqwe")}
+        
+
+       </div></div>
     </main>
   )
 
-  function navBar() {
-    return <div className='flex items-center justify-between bg-slate-600 mt-0'>
-      <div className="text-white text-lg font-bold">Title</div>
 
 
-      <div className="space-x-4">
-
-        <button className="text-white">About</button>
-        <button className="text-white">Sign up</button>
-      </div>
+  function qanda(question, answer) {
+    return <div className='w-full h/20 bg-red-200 flex flex-col justify-center text-center'>
+      <div className='text-2xl font-bold'>{question} </div>
+      <p className='text-lg '>{answer}</p>
     </div>
   }
 }
