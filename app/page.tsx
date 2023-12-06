@@ -24,9 +24,9 @@ export default function Home() {
          Winnie the Pooh 劉曉波动态网自由门</div></div>
          <div className="flex w-2/5  rounded-l text-center items-center justify-center py-10">
           <div className=''>cool pic / Whole div element</div></div>
-      </div>
-      <div className='p-10'>big cool sign up button here</div>
-      <div className='bg-slate-700'>
+      </div><a href='https://forms.gle/6Cx5aVegfqsVTopN9' target="_blank">
+      <button className='w-72 h-20 rounded-2xl underline bg-amber-300 font-bold text-2xl mt-20 text-white'>Link to Sign Up</button></a>
+      <div className='bg-slate-700 mb-0'>
       <div className='mt-10 bg-slate-700 min-w-screen text-center text-2xl p-3 font-bold underline'> Commonly Asked Questions</div>
       <div className='flex justify-center'>
         
