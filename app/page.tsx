@@ -8,13 +8,13 @@ export default function Home() {
    
      
 
-      <h1 className='text-3xl py-20'>Title (or logo) </h1>
+      <h1 className='text-5xl py-20'> Super Cool Hackathon </h1>
 
       <div className='flex justify-around min-w-4/5 min-h-1/2 text-yellow-50'>
        <div className='w-2/5 text-start'>
         <div className='font-bold text-3xl'> What is Title?
         </div>
-        <div className='mt-10 indent-8'>   动态网自由门 天安門 天安门 法輪功 李洪志 Free Tibet 六四天安門事件 The Tiananmen Square protests of 1989 
+        <div className='mt-10 indent-8 text-lg'>   动态网自由门 天安門 天安门 法輪功 李洪志 Free Tibet 六四天安門事件 The Tiananmen Square protests of 1989 
        天安門大屠殺 The Tiananmen Square Massacre 反右派鬥爭 The Anti-Rightist Struggle 大躍進政策 The Great Leap Forward 文化大革命 
        The Great Proletarian Cultural Revolution 人權 Human Rights 民運 Democratization 自由 Freedom 獨立 Independence 多黨制 Multi-party system
         台灣 臺灣 Taiwan Formosa 中華民國 Republic of China 西藏 土伯特 唐古特 Tibet 達賴喇嘛 Dalai Lama 法輪功 Falun Dafa 新疆維吾爾自治區 
