@@ -8,7 +8,7 @@ export default function Home() {
    
      
 
-      <h1 className='text-5xl py-20'> Super Cool Hackathon </h1>
+      <h1 className='text-5xl py-20 font-semibold'> Super Cool Hackathon </h1>
 
       <div className='flex justify-around min-w-4/5 min-h-1/2 text-yellow-50'>
        <div className='w-2/5 text-start'>
@@ -27,10 +27,10 @@ export default function Home() {
       </div><a href='https://forms.gle/6Cx5aVegfqsVTopN9' target="_blank">
       <button className='w-72 h-20 rounded-2xl underline bg-amber-300 font-bold text-2xl mt-20 text-white'>Link to Sign Up</button></a>
       <div className='bg-slate-700 mb-0'>
-      <div className='mt-10 bg-slate-700 min-w-screen text-center text-2xl p-3 font-bold underline'> Frequently Asked Questions</div>
+      <div className='mt-14 bg-slate-700 min-w-screen text-center text-2xl p-3 font-bold underline '> Frequently Asked Questions</div>
       <div className='flex justify-center'>
         
-       <div className='w-11/12 bg-slate-700 grid gap-5 grid-cols-3'>
+       <div className='w-11/12 mt-5 bg-slate-700 grid gap-5 grid-cols-3'>
 
         {qanda("Will there be anything to eat there?", "Yes, free food, its FREE, YOU NEED THE FREE FOOD, it very good")}
         {qanda("when?", "idk man")}
